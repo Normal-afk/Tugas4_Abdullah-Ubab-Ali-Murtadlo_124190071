@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    tools:context=".List_Activity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        app:tabTextColor="@color/white"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tl_item_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="month" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tl_item_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="year" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_list"
+        android:layout_below="@id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF191919"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/indoyyi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="IndoYYI adalah platform penyedia layanan streaming film gratis e-legal yang paling terjamin kualitasnya. Selalu update dengan film-film terbaru sehingga anda tidak perlu khawatir ketinggalan film-film kece yang sedang tayang dibioskop. \n\n Anda tidak perlu khawatir dijauhi teman anda karena tidak menonton film-film terbaru yang sedang ngetren. Semua film dari semua negara dari semua tahun ada disini. \n\n Dan yang paling penting, platform ini GRATISS!!!!!!!"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="&#169;IndoYYI Enterprize"
+            android:textColor="@color/white"
+            android:textSize="5pt"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>
